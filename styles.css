@@ -27,6 +27,7 @@
 	align-items: center;
 	font-size: xx-large;
 	gap: 40px;
+	margin-top: 10vh;
 }
 
 .searchWrapper > div {
@@ -49,7 +50,12 @@
 	cursor: pointer;
 }
 
+.definitionText {
+	padding: 30px;
+}
+
 #section-2 {
+	padding: 20px;
 	width: 100vw;
 }
 
