@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="App.js" defer></script>
+		<title>Dictionary</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<div>
+				<img src="" />
+				<h2>My DICTIONARY App</h2>
+			</div>
+			<button id="toggleButton">HISTORY</button>
+		</div>
+		<div id="section-1">
+			<h4>Search for new word</h4>
+			<div class="searchWrapper">
+				<div>
+					<input type="text" class="wordInput" />
+					<img src="assets/icons8-search.svg" class="search" />
+				</div>
 
+				<div class="wordCardWrapper">
+					<p class="definitionText"></p>
+				</div>
+			</div>
+		</div>
+		<div id="section-2">
+			<div class="historyWrapper"></div>
+		</div>
+	</body>
+</html>
