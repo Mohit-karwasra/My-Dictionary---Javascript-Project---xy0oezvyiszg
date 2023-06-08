@@ -34,7 +34,3 @@ This is a simple dictionary app that allows users to search for word definitions
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
